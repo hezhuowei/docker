@@ -15,8 +15,8 @@ RUN apt install -y curl
 RUN apt install -y xfonts-utils
 RUN apt install -y libreoffice
 RUN apt install -y pdftk
-RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
-RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
 RUN apt install -y nodejs
 RUN npm config set registry https://registry.npm.taobao.org
 RUN npm install yarn -g
